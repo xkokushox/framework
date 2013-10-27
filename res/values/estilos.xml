@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<style name="boton" parent="@android:style/Widget.Button">
+		<item name="android:paddingLeft">25dip</item>
+		<item name="android:paddingRight">25dip</item>
+		<item name="android:layout_centerInParent">true</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	
+	<style name="boton.Accion">
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:background">@drawable/ic_launcher</item>
+	</style>
+	
+	<style name="boton.Accion.Mediano">
+		<item name="android:paddingLeft">13dip</item>
+		<item name="android:paddingRight">13dip</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:layout_margin">3dip</item>
+	</style>
+	
+	<style name="boton.Accion.Chico">
+		<item name="android:paddingLeft">3dip</item>
+		<item name="android:paddingRight">3dip</item>
+		<item name="android:textSize">12sp</item>
+		<item name="android:layout_margin">3dip</item>
+	</style>
+	
+	<style name="layout">
+		<item name="android:paddingTop">6dip</item>
+		<item name="android:paddingBottom">6dip</item>
+		<item name="android:paddingLeft">6dip</item>
+		<item name="android:paddingRight">10dip</item>
+	</style>
+	
+	<style name="layout_in_scroll">
+		<item name="android:paddingLeft">6dip</item>
+		<item name="android:paddingRight">10dip</item>
+	</style>
+	
+	<style name="scroll_top_layout">
+		<item name="android:layout_marginBottom">30dip</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+	
+	<style name="layout_bottom">
+		<item name="android:layout_marginTop">-30dip</item>
+		<item name="android:layout_marginBottom">-3dip</item>
+		<item name="android:paddingTop">0dip</item>
+		<item name="android:paddingBottom">0dip</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:gravity">center</item>
+		<item name="android:orientation">horizontal</item>
+	</style>
+	
+	<style name="Animation" />
+	<style name="Animation.MyAnimation">
+		<item name="android:activityOpenEnterAnimation">@anim/fade_enter</item>
+		<item name="android:activityOpenExitAnimation">@anim/fade_exit</item>
+		<item name="android:activityCloseEnterAnimation">@anim/fade_enter</item>
+		<item name="android:activityCloseExitAnimation">@anim/fade_exit</item>
+	</style>
+	
+	<style name="Theme.AnimatedTheme" parent="@android:style/Theme">     
+		<item name="android:windowAnimationStyle">@style/Animation.MyAnimation</item>       
+	</style>
+	
+	<style name="more_info">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+    <style name="more_info_text">
+        <item name="android:textColor">#E0E0E0</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+</resources>
